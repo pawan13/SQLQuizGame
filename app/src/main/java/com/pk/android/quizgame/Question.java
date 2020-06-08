@@ -4,7 +4,7 @@ public class Question {
     private String question;
     private String option1;
     private String option2;
-    private String option;
+    private String option3;
     private int answerNr;
 
     public Question(){}
@@ -13,7 +13,7 @@ public class Question {
         this.question = question;
         this.option1 = option1;
         this.option2 = option2;
-        this.option = option;
+        this.option3 = option3;
         this.answerNr = answerNr;
     }
 
@@ -41,13 +41,11 @@ public class Question {
         this.option2 = option2;
     }
 
-    public String getOption() {
-        return option;
+    public String getOption3() {
+        return option3;
     }
 
-    public void setOption(String option) {
-        this.option = option;
-    }
+    public void setOption(String option3) { this.option3 = option3; }
 
     public int getAnswerNr() {
         return answerNr;
